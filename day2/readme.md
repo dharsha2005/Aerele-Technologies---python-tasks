@@ -21,8 +21,6 @@ This repository contains my Day 2 Python learning and exercises.
 ## Exercises
 
 - Student Management Refactoring
-- Salary Processing Refactoring
 
 ## Author
-
 Dharshan B
