@@ -44,7 +44,5 @@ def main() -> None:     #type hints
     process_student("Deepak", 40)
     process_student("Hari", 120)
 
-
-
 if __name__ == "__main__":
     main()

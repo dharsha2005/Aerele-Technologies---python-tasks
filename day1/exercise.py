@@ -4,9 +4,7 @@ Write a Small Script Using List Comprehension and Context Manager
 students = ["Alice", "Bob", "Charlie", "David", "Emma"]
 marks = [95, 78, 88, 67, 91]
 passed_students = [
-    name
-    for name, mark in zip(students, marks)
-    if mark >= 80
+    name for name, mark in zip(students, marks) if mark >= 80
 ]
 with open("numbers.txt", "w") as file:
     file.write("Passed Students\n")
