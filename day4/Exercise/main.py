@@ -7,6 +7,5 @@ def main():
     print("Student added successfully!")
     print("List of students:")
     show_students()
-if __name__ == "__main__":
-    main()
+
     

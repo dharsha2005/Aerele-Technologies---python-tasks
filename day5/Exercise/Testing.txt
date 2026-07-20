@@ -1,0 +1,26 @@
+$ python -m pytest -v
+========================== test session starts ===========================
+platform win32 -- Python 3.14.2, pytest-9.1.1, pluggy-1.6.0 -- C:\Aerele Python tasks\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Aerele Python tasks\day5\Exercise
+collected 5 items                                                         
+
+test_bank.py::test_valid_withdrawal PASSED                          [ 20%]
+test_bank.py::test_zero_amount PASSED                               [ 40%]
+test_bank.py::test_negative_amount PASSED                           [ 60%]
+test_bank.py::test_insufficient_balance PASSED                      [ 80%]
+test_bank.py::test_invalid_type PASSED                              [100%]
+
+=========================== 5 passed in 0.02s ============================
+
+
+C:\Aerele Python tasks\day5\Exercise>python -m mypy .
+Success: no issues found in 3 source files
+
+C:\Aerele Python tasks\day5\Exercise>python -m ruff check .
+All checks passed!
+
+C:\Aerele Python tasks\day5\Exercise>python -m ruff format .
+3 files left unchanged
+
+C:\Aerele Python tasks\day5\Exercise>

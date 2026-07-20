@@ -1,0 +1,8 @@
+problems:
+
+1) Type hints
+2) No validation
+3) Allows negative values
+4) No docstrings
+5) No tests
+6) No business logics

@@ -1,3 +1,5 @@
-Dharshan - Pass
-Deepak - Fail
-Hari - Pass
+Dharshan,67,Pass
+Deepak,87,Pass
+Barath,89,Pass
+Hari,65,Pass
+Dinesh,86,Pass
